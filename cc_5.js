@@ -47,3 +47,8 @@ console.log("Available products:", availableProducts);
 const sales = [500, 300, 200, 400];
 const totalRevenue = sales.reduce((acc, sale) => acc + sale, 0);
 console.log("Total revenue:", totalRevenue);
+
+// Task 7 - Find() Method
+const customers = ["Alice", "Bob", "Charlie", "David"];
+const foundCustomer = customers.find(customer => customer === "Charlie");
+console.log("Found customer:", foundCustomer);
