@@ -22,3 +22,13 @@ const order = {
 };
 
 order.displayOrder();
+
+// Task 3 - Array Manipulation
+order.displayOrder();
+
+const cartItems = ["Apple", "Banana", "Orange"];
+cartItems.push("Grapes");
+cartItems.pop();
+cartItems.unshift("Mango");
+cartItems.shift();
+console.log("Final cart items:", cartItems);
